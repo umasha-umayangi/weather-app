@@ -1,0 +1,150 @@
+* {
+    font-style: 'Segoe UI', sans-serif;
+}
+
+.background-morning {
+    background-image: url(../img/bg-img.png);
+    background-repeat: no-repeat;
+    height: 853px;
+    background-size: cover;
+}
+
+.background-night {
+    background-image: url(../img/night2.png);
+    background-repeat: no-repeat;
+    height: 853px;
+    background-size: cover;
+}
+
+.search-bar {
+    width: 100%;
+    margin-top: 18px;
+    opacity: 0.3;
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    position: relative;
+    padding-left: 50px;
+}
+
+.map-marker {
+    position: absolute;
+    top: 33px;
+    left: 40px;
+    font-size: 20px;
+}
+
+.current-details {
+    margin-top: 24px;
+}
+
+.today-datetime-sec {
+    padding-left: 38px;
+}
+
+.today-weather-img-sec {
+    padding-right: 39px;
+    text-align: right;
+}
+
+.today-weather-img-sec i {
+    font-size: 80px;
+    color: #f5f4e8;
+}
+
+.today-datetime-sec .datetime {
+    color: black;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 0;
+}
+
+.today-datetime-sec .weather {
+    color: black;
+    font-size: 80px;
+}
+
+.weather-des-sec .weather-des {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-top: 12px;
+}
+
+.three-col-sec {
+    margin-top: 19px;
+}
+
+.three-col-sec .column {
+    background: rgb(139, 134, 174, 0.3);
+}
+
+.column .col-icon-sec {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.col-icon-sec i {
+    font-size: 70px;
+    color: #0E6096;
+}
+
+.column .col-heading {
+    text-align: center;
+    padding-top: 27px;
+}
+
+.col-heading h3,
+.col-weather h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.col-heading h3 {
+    text-transform: uppercase;
+}
+
+.col-weather h3 {
+    text-transform: lowercase;
+}
+
+.column .col-weather {
+    text-align: center;
+    padding-top: 29px;
+    padding-bottom: 16px;
+}
+
+.five-days-sec {
+    margin-top: 66px;
+    text-align: center;
+}
+
+.day-col {
+    background: rgb(139, 134, 174, 0.3);
+}
+
+.day-col .col-day-sec {
+    padding-top: 21px;
+}
+
+.col-day-sec h3,
+.day-weather-sec h3 {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.day-col .day-icon-sec {
+    padding-top: 32px;
+}
+
+.day-icon-sec i {
+    font-size: 50px;
+    color: #F27A4D;
+}
+
+.day-col .day-weather-sec {
+    padding-top: 32px;
+    padding-bottom: 18px;
+}
